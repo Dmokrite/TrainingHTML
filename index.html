@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Training</title>
+    <!--Image de l'onglet-->
+    <link rel="shortcut icon" href="html.png" />
+  </head>
+  <body>
+    <header>
+      <h1>Hello internet</h1>
+      <p>
+        Ceci est un texte basique. <em>Ceci est un texte en italic</em>.
+        <strong>Et ici un texte en gras</strong>.
+        <span>L'élément en span ne revient pas à la ligne</span>
+      </p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta nostrum
+        aspernatur laboriosam odio eveniet cupiditate illum, doloribus iusto
+        impedit explicabo excepturi nisi velit aliquam voluptas porro minus
+        alias commodi provident.
+      </p>
+    </header>
+    <section>
+      <div>
+        <h2><img src="test.jpg" height="500" alt="Un test" /></h2>
+      </div>
+      <div>
+        <h3>Listes</h3>
+        <ul>
+          <li>Ul = unordered list</li>
+          <li>Ul = unordered list</li>
+          <li>Ul = unordered list</li>
+        </ul>
+        <ol>
+          <li>OL = ordered list</li>
+          <li>OL = ordered list</li>
+          <li>OL = ordered list</li>
+          <li>OL = ordered list</li>
+          <li>OL = ordered list</li>
+        </ol>
+      </div>
+      <div>
+        <h4>Tableaux</h4>
+        <table border="1" width="45%">
+          <!--Légende du tableau-->
+          <caption>
+            Populations d'Europe
+          </caption>
+          <!--en-tête-->
+          <thead>
+            <tr>
+              <th>Pays</th>
+              <th>Populations</th>
+            </tr>
+          </thead>
+          <!--Corps du tableau-->
+          <tbody>
+            <tr>
+              <td>France</td>
+              <td>66Millions</td>
+            </tr>
+            <tr>
+              <td>Allemagne</td>
+              <td>82Millions</td>
+            </tr>
+            <tr>
+              <td>Espagne</td>
+              <td>47Millions</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <h5>Liens</h5>
+        <a href="https://htmlcheatsheet.com/" target="_blank"
+          >HTML Cheat Sheet</a
+        >
+        <br />
+        <a
+          href="https://www.toptal.com/designers/htmlarrrows/symbols/"
+          target="_blank"
+          >Icones en HTML</a
+        >
+      </div>
+      <div>
+        <h6>Vidéos</h6>
+        <video src="Test.mp4" height="150%" autoplay loop muted></video>
+      </div>
+    </section>
+    <br />
+    <section>
+      <h2>Formulaire</h2>
+      <form action="/action.php" method="post">
+        <label for="name">Nom :</label
+        ><input id="name" type="text" placeholder="Entrez votre nom" />
+        <br />
+        <label for="age">Age :</label>
+        <input
+          id="age"
+          type="number"
+          min="1"
+          max="99"
+          step="1"
+          value="18"
+        /><br />
+        <!---Input select-->
+        <label for="gender">Genre</label>
+        <select id="gender">
+          <option value="Homme">Homme</option>
+          <option selected value="Femme">Femme</option></select
+        ><br />
+        <!--Input radio-->
+        <div>
+          <input type="radio" name="type" id="human" />
+          <label for="human">Humain</label>
+
+          <input type="radio" name="type" checked id="dog" />
+          <label for="dog">Chien</label>
+
+          <input type="radio" name="type" id="cat" />
+          <label for="cat">Chat</label>
+        </div>
+        <Textarea cols="30" rows="10" placeholder="Entrez votre demande ici"></Textarea><br>
+        <label><input type="checkbox" />Accepter les CGV</label>
+      </form>
+    </section>
+  </body>
+</html>
