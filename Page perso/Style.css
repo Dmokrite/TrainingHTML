@@ -217,15 +217,19 @@ body {
   font-size: 20px;
   font-weight: 650;
   color: #ffffff;
-  text-shadow: 3px 3px 6px #000000;
+  text-shadow: 3px 3px 4spx #000000;
 }
 
 #contact p{
   font-size: 20px;
   font-weight: 650;
-  color: #b10c0c;
-  text-shadow: 4px 4px 8px #ffffff;
+  color: #bad66e;
+  text-shadow: 4px 4px 6px #000000;
   margin: 10px;
+}
+
+#contact p{
+  backdrop-filter: blur(10px) invert(25%);
 }
 
 /*footer*/
