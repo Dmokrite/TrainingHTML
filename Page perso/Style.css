@@ -183,7 +183,27 @@ body {
 }
 
 /*skills*/
+.box {
+  background-color: #ffffff;
+  margin: 5px 0 0;
+  align-items: center;
+}
 
+.box .list h2{
+  background-color: #bad66e;
+  color: #ffffff;
+  font-size: 35px;
+  text-align: center;
+  text-shadow: none;
+}
+
+.box .list h3{
+  background-color: #ffffff;
+  color: #bad66e;
+  text-shadow: none;
+  font-size: 35px;
+  text-align: center;
+}
 /*Projects*/
 
 /*contact*/
@@ -195,7 +215,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 165px;
+  padding: 153px;
 }
 
 #contact h1{
@@ -238,9 +258,10 @@ footer{
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
+  justify-content: center;
   align-items: center;
-  flex-direction: column;
   padding: 10px 0 10px 0;
+  
 }
 
 footer p{
