@@ -9,7 +9,7 @@ let previous = 0;
 //on stock l'affichage
 let display = "";
 
-//on stock l'operration
+//on stock l'operation
 let operation = null;
 
 //on initialise la mémoire
