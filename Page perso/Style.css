@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -39,7 +39,7 @@ body {
   width: 100%;
 }
 /*banner*/
-#banner{
+#banner {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,7 +52,8 @@ body {
   background-position: center;
 }
 
-#banner h3, h4{
+#banner h3,
+h4 {
   color: #ffffff;
   text-shadow: 3px 3px 3px #000000;
 }
@@ -107,7 +108,7 @@ body {
   left: 20px;
 }
 /*Accueil*/
-#presentation{
+#presentation {
   background-image: url("img/president.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -118,29 +119,32 @@ body {
   height: 70vh;
 }
 
-#presentation h1,h2,h3{
+#presentation h1,
+h2,
+h3 {
   color: #bad66e;
   text-shadow: 4px 4px 8px #000;
 }
 
-#presentation p{
+#presentation p {
   color: #ffffff;
   font-size: 25px;
   font-weight: 400;
   text-shadow: 3px 3px 6px #bad66e;
 }
 
-#presentation span{
+#presentation span {
   color: #bad66e;
   text-shadow: 3px 3px 6px #000;
 }
 
-#presentation h1{
+#presentation h1 {
   font-size: 50px;
   font-weight: 700;
 }
 
-#presentation h2,h3{
+#presentation h2,
+h3 {
   font-size: 40px;
   font-weight: 450;
 }
@@ -158,12 +162,12 @@ body {
   height: 70vh;
 }
 
-.box .list{
+.box .list {
   width: 100%;
   height: 50vh;
 }
 
-.box .list h2{
+.box .list h2 {
   background-color: #bad66e;
   color: #ffffff;
   font-size: 35px;
@@ -171,7 +175,7 @@ body {
   text-shadow: none;
 }
 
-.box .list h3{
+.box .list h3 {
   background-color: #ffffff;
   color: #bad66e;
   text-shadow: none;
@@ -206,7 +210,7 @@ body {
   margin: 25px;
 }
 
-.project-description h4{
+.project-description h4 {
   font-size: 40px;
   font-weight: 600;
   color: #ffffff;
@@ -214,7 +218,7 @@ body {
   background-color: #bad66e;
 }
 
-.project-description p{
+.project-description p {
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -222,9 +226,8 @@ body {
   text-shadow: 1px 1px 2px #000;
 }
 
-
 /*contact*/
-#contact{
+#contact {
   background-image: url("img/d41586-019-00653-5_16459152.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -235,7 +238,7 @@ body {
   height: 70vh;
 }
 
-#contact h1{
+#contact h1 {
   color: #ffffff;
   font-size: 45px;
   font-weight: 700;
@@ -243,21 +246,23 @@ body {
   margin: 15px;
 }
 
-#contact h2, h3, h4{
+#contact h2,
+h3,
+h4 {
   font-size: 35px;
   font-weight: 600;
   color: #ffffff;
   text-shadow: 3px 3px 6px #000000;
 }
 
-#contact span{
+#contact span {
   font-size: 20px;
   font-weight: 650;
   color: #ffffff;
   text-shadow: 3px 3px 4spx #000000;
 }
 
-#contact p{
+#contact p {
   font-size: 20px;
   font-weight: 650;
   color: #bad66e;
@@ -265,14 +270,12 @@ body {
   margin: 10px;
 }
 
-#contact p{
+#contact p {
   backdrop-filter: blur(10px) invert(25%);
 }
 
-
-
 /*footer*/
-footer{
+footer {
   background-color: #bad66e;
   background-size: cover;
   background-repeat: no-repeat;
@@ -280,21 +283,11 @@ footer{
   justify-content: center;
   align-items: center;
   padding: 10px 0 10px 0;
-  
 }
 
-footer p{
+footer p {
   font-size: 20px;
   font-weight: 250;
   color: #ffffff;
   text-shadow: 3px 3px 3px #000000;
 }
-
-
-
-
- 
-
-
-
-

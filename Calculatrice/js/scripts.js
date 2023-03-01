@@ -167,4 +167,3 @@ function calculate(nb1, nb2, operation) {
   if (operation === "*") return nb1 * nb2;
   if (operation === "/") return nb1 / nb2;
 }
-
