@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/interactive-rating-component-main/images/favicon-32x32.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="/interactive-rating-component-main/css/style.css" rel="stylesheet" type="text/css" />
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="question">
+        <!-- Rating state start -->
+        <span class="btn star rnd"><i class="fa-solid fa-star"></i></span>
+        <h3>How did we do?</h3>
+        <p>
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <div class="btns">
+          <span class="btn num rnd" data-val="1"
+            ><i class="fa-solid fa-1"></i
+          ></span>
+          <span class="btn num rnd" data-val="2"
+            ><i class="fa-solid fa-2"></i
+          ></span>
+          <span class="btn num rnd" data-val="3"
+            ><i class="fa-solid fa-3"></i
+          ></span>
+          <span class="btn num rnd" data-val="4"
+            ><i class="fa-solid fa-4"></i
+          ></span>
+          <span class="btn num rnd" data-val="5"
+            ><i class="fa-solid fa-5"></i
+          ></span>
+        </div>
+        <button type="submit">Submit</button>
+      </div>
+      <!-- Rating state end -->
+
+      <!-- Thank you state start -->
+      <div class="selected">
+        <img class="thankyou" alt="Thank you" src="/interactive-rating-component-main/images/illustration-thank-you.svg"/>
+        <p class="choice">
+          You selected
+          <!-- Add rating here -->
+          out of 5
+        </p>
+        <p class="thanks">Thank you!</p>
+        <p>
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+      </div>
+      <!-- Thank you state end -->
+    </main>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://dmokrite.github.io/Portfolio/">Dmokrite</a>.
+    </footer>
+
+    <script type="application/javascript" src="/interactive-rating-component-main/scripts/script.js"></script>
+  </body>
+</html>
