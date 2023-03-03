@@ -238,6 +238,11 @@ h3 {
   height: 70vh;
 }
 
+#contact .mail{
+  color: #bad66e;
+  text-shadow: 2px 2px 3px #000000;
+}
+
 #contact h1 {
   color: #ffffff;
   font-size: 45px;
