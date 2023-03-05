@@ -785,11 +785,6 @@ footer .copyright {
   height: 100%;
 }
 
-.icon{
-  display: flex;
-  text-decoration: underline 2px #cf1a75;
-}
-
 /*Basket page*/
 #form-details {
   display: flex;
