@@ -71,34 +71,34 @@ h4 {
   left: 0;
 }
 /*navbar*/
-#navbar {
+.navbar {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#navbar li {
+.navbar li {
   list-style: none;
   padding: 0 20px;
   position: relative;
 }
 
-#navbar li a {
+.navbar li a {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 35px;
   font-weight: 600;
   color: #ffffff;
   transition: 0.3s ease;
   text-shadow: 2px 2px 2px #000000;
 }
 
-#navbar li a:hover,
-#navbar li a.active {
+.navbar li a:hover,
+.navbar li a.active {
   color: #bad66e;
 }
 
-#navbar li a.active::after,
-#navbar li a:hover::after {
+.navbar li a.active::after,
+.navbar li a:hover::after {
   content: "";
   width: 30%;
   height: 2px;
@@ -150,9 +150,32 @@ h3 {
 }
 
 /*skills*/
-.box {
+#skills{
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+#skills h2{
+  background-color: #bad66e;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 2px 2px 3px#000;
+  padding: 1%;
+}
+
+#skills h3{
   background-color: #ffffff;
-  margin: 5px 0 0;
+  color: #bad66e;
+  text-shadow: 2px 2px 3px#000;
+  font-size: 40px;
+  text-align: center;
+  padding: 1%;
+}
+
+.box {
+  background-color: #465331;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -162,34 +185,26 @@ h3 {
   height: 70vh;
 }
 
-.box .list {
+.box .list{
   width: 100%;
   height: 50vh;
+  padding-top: 20px;
 }
 
-.box .list h2 {
-  background-color: #bad66e;
-  color: #ffffff;
-  font-size: 35px;
-  text-align: center;
-  text-shadow: none;
+.col1, .col2, .col3, .col4, .col5, .col6, .col7 {
+  padding-bottom: 10px;
 }
 
-.box .list h3 {
-  background-color: #ffffff;
-  color: #bad66e;
-  text-shadow: none;
-  font-size: 35px;
-  text-align: center;
-}
 /*Projects*/
 .projectsbox {
+  background-color: #465331;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  padding-top: 25px;
 }
 
 .project {
@@ -210,7 +225,7 @@ h3 {
   margin: 25px;
 }
 
-.project-description h4 {
+.project-description h4{
   font-size: 40px;
   font-weight: 600;
   color: #ffffff;
@@ -218,13 +233,15 @@ h3 {
   background-color: #bad66e;
 }
 
-.project-description p {
+.project-description p{
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 20px;
   color: #bad66e;
   text-shadow: 1px 1px 2px #000;
 }
+
+
 
 /*contact*/
 #contact {
@@ -282,11 +299,9 @@ h4 {
 /*footer*/
 footer {
   background-color: #bad66e;
-  background-size: cover;
-  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   padding: 10px 0 10px 0;
 }
 
