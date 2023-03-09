@@ -7,9 +7,11 @@
     <title>Training</title>
     <!--Image de l'onglet-->
     <link rel="shortcut icon" href="html.png" />
+    <link rel="stylesheet" href="style.css">
   </head>
+
   <body>
-    <header>
+    <header class="Title">
       <h1>Hello great internet</h1>
       <p>
         Ceci est un texte basique. <em>Ceci est un texte en italic</em>.
@@ -23,11 +25,12 @@
         alias commodi provident.
       </p>
     </header>
+
     <section>
-      <div>
+      <div class="img">
         <h2><img src="test.jpg" height="500" alt="Un test" /></h2>
       </div>
-      <div>
+      <div class="list">
         <h3>Listes</h3>
         <ul>
           <li>Ul = unordered list</li>
@@ -42,7 +45,7 @@
           <li>OL = ordered list</li>
         </ol>
       </div>
-      <div>
+      <div class="table">
         <h4>Tableaux</h4>
         <table border="1" width="45%">
           <!--Légende du tableau-->
@@ -73,7 +76,7 @@
           </tbody>
         </table>
       </div>
-      <div>
+      <div class="link">
         <h5>Liens</h5>
         <a href="https://htmlcheatsheet.com/" target="_blank"
           >HTML Cheat Sheet</a
@@ -85,18 +88,20 @@
           >Icones en HTML</a
         >
       </div>
-      <div>
+      <div class="video">
         <h6>Vidéos</h6>
-        <video src="Test.mp4" height="100%" autoplay loop muted></video>
+        <video class="video" src="Test.mp4" autoplay loop muted></video>
       </div>
     </section>
-    <br />
-    <section>
+
+    <br/>
+
+    <section id="form">
       <h2>Formulaire</h2>
       <form action="/action.php" method="post">
         <label for="name">Nom :</label
         ><input id="name" type="text" placeholder="Entrez votre nom" />
-        <br />
+        <br/>
         <label for="age">Age :</label>
         <input
           id="age"
@@ -116,10 +121,8 @@
         <div>
           <input type="radio" name="type" checked id="human" />
           <label for="human">Humain</label>
-
           <input type="radio" name="type" id="dog" />
           <label for="dog">Chien</label>
-
           <input type="radio" name="type" id="cat" />
           <label for="cat">Chat</label>
         </div>
@@ -132,16 +135,16 @@
         <label><input type="checkbox" />Accepter les CGV</label>
       </form>
     </section>
-</script>
-<canvas id="myCanvas"></canvas>
+
+    <canvas id="canvas"></canvas>
 <script>
   // Récupère le contexte 2D du canvas
-  var canvas = document.getElementById("myCanvas");
+  var canvas = document.getElementById("canvas");
   var ctx = canvas.getContext("2d");
 
   // Définit les dimensions du canvas
-  canvas.width = 800;
-  canvas.height = 600;
+  canvas.width = 150;
+  canvas.height = 500;
 
   // Variables pour l'animation
   var x = 50;
@@ -151,7 +154,7 @@
 
   // Chargement de l'image 
   var bartImage = new Image();
-  bartImage.src = "https://upload.wikimedia.org/wikipedia/fr/thumb/5/5d/Assassin%27s_Creed_Origins_Logo.png/1200px-Assassin%27s_Creed_Origins_Logo.png";
+  bartImage.src = "https://www.pngfind.com/pngs/m/6-62082_simpsons-em-png-bart-simpson-nirvana-png-transparent.png";
 
   function drawBart() {
     // Efface le canvas
@@ -179,5 +182,13 @@
   // Démarre l'animation
   animate();
 </script>
+
+
+<footer>
+  <div class="copyright">
+    <p>© 2023, Dmokrite - Page perso training</p>
+  </div>
+</footer>
+
  </body>
 </html>
